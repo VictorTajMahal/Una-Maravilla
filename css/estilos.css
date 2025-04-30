@@ -1,0 +1,143 @@
+
+body {
+    background-image: url('../img/fondo_tajmahal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Libre Baskerville', 'Alice', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.header .logo img {
+    height: 100px;
+    margin-right: 20px ;
+    border-radius: 150px;
+}
+
+.titulo-principal h1 {
+    font-size: 50px;
+    color: #000000;
+    margin: 0;
+}
+
+.titulo-principal h2 {
+    font-size: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+marquee img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.links-menu {
+    background-color: #A18262;
+    padding: 10px 0;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+
+.introduccion {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 40px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+    align: left;
+}
+
+.introduccion h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.introduccion hr {
+    width: 80%;
+    margin: 10px auto 20px auto;
+    border: 1px solid #A18262;
+}
+
+.introduccion p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.imagenes-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.caja-imagen img{
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    align: right;
+    
+}
+.caja-xsd video {
+    width:300px;
+    height:250px;
+    border-radius: 15px;
+   align:center;
+}
+
+.caja-interes img{
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    align: right;
+
+}
+
+
+.footer {
+    background-color: #A18262;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.footer-links p {
+    margin: 5px 0;
+}
+
+.footer-copy {
+    margin-top: 10px;
+}
